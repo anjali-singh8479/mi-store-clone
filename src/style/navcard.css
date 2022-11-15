@@ -1,0 +1,15 @@
+.navcard{
+width: 10vw;
+text-align: center;
+cursor: pointer;
+}
+.navcard img{
+    width: 10vw;
+}
+.navcard p{
+    color: rgb(100, 95, 95);
+    margin: 0;
+}
+.navcard span{
+    color: orange;
+}

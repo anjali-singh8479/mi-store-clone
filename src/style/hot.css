@@ -1,0 +1,17 @@
+.hot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   padding-bottom: 40px; 
+  
+}
+.hot a{
+    
+    color: gray;
+    padding: 0 20px;
+}
+.hot a:hover{
+    text-decoration: none;
+    color: orange;
+}

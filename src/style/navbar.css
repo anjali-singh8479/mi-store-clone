@@ -1,0 +1,72 @@
+.nav{
+    padding:0 1vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 40px;
+   border-bottom: 1px solid gainsboro;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.nav .logo:first-child{
+    background-color: orange;
+}
+.logo a{
+    color: hsl(0, 2%, 9%);
+    text-decoration: none;
+    padding: 2px 10px;
+    font-family: poppins ;
+    font-size: 14px;
+   
+}
+.logo a:hover{
+    text-decoration: none;
+    color: white;
+}
+.logo:first-child img{
+   height: 50px;
+   
+  
+}
+.searchbox{
+    margin-right: 10px;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+   
+}
+.searchbox input{
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    padding:  0 10px;
+    margin-right: 10px;
+    outline: none;
+}
+.searchbox svg{
+   fill:  gainsboro;
+
+}
+
+@media(max-width:820px){
+    .logo a{
+       font-size: 10px;
+       
+    } 
+    .searchbox input{
+        padding: 0 ;
+    }
+    
+}
+@media(max-width:414px){
+    .logo a{
+        font-size: 2px;
+        
+     }
+}
+

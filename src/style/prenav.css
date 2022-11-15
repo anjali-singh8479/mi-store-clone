@@ -1,0 +1,32 @@
+.prenav{
+    background: rgb(54, 53, 53);
+    color: white;
+   display: grid;
+   grid-template-columns: 4fr 2fr;
+}
+.prenav > div{
+    padding: 0vmax 2vmax;
+    display: flex;
+   justify-content: left;
+   align-items: center;
+   
+}
+.prenav > div a{
+    padding:  0.5rem 1rem;
+    
+    color: white;
+    text-decoration: none;
+    font-family: poppins sans-serif;
+    font-weight: 300;
+}
+
+
+@media(max-width:820px){
+    .prenav > div a{
+        font-size: 10px;
+       font-weight: 100;
+       padding: 0.5rem
+    }  
+
+}
+

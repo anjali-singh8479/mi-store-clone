@@ -1,0 +1,43 @@
+.productreview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+.productreview .review{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(134, 130, 130);
+    margin: 40px;
+    width: 500px;
+  height: 350px;
+    background-color: white;
+   
+}
+.productreview .review:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px gainsboro;
+}
+.productreview .review h5{
+    padding-top: 20px;
+}
+.productreview .review b{
+    color: orange;
+}
+@media(max-width:820px){
+    .productreview{
+        flex-direction: column;
+    } 
+
+}
+@media(max-width:414px){
+.productreview .review{
+width:100%;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow-x: hidden;
+}
+}

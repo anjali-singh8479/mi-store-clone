@@ -1,0 +1,19 @@
+.heading div{
+height: 0.5px;
+width: 100%;
+background-color: rgb(167, 163, 163);
+}
+.heading{
+    display: flex;
+    margin: 30px 120px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.heading p{
+    text-align: center;
+   margin: 30px;
+   color: rgb(131, 126, 126);
+   font-family: poppins;
+   font-size: 20px;
+}

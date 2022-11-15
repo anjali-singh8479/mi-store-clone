@@ -1,0 +1,86 @@
+.accesories {
+  display: flex;
+  width: 9ovw;
+  margin: auto;
+  /* justify-content: center;
+  padding: 0 40px; */
+}
+
+.accesories .second-item {
+  /* padding-left: 50px;
+  padding-top: 0; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.accesories .second-item .Hotcard img {
+  width: 70%;
+}
+.accesories > div:first-child > img {
+  cursor: pointer;
+  transition: all 0.5s;
+  width: 22vw;
+  /* height: 300px; */
+}
+.accesories > div:first-child > img:hover {
+  transform: translateY(-0.4vmax);
+  transition: all 0.3s ease;
+  box-shadow: 0px 6px 15px gainsboro;
+}
+.accesories .second-item .Hotcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 31%;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  margin: 2px;
+  padding: 10px;
+}
+.accesories .second-item .Hotcard:hover {
+  transform: translateY(-0.2vmax);
+  transition: all 0.3s ease;
+  box-shadow: 0px 6px 15px gainsboro;
+  cursor: pointer;
+}
+.accesories .second-item .Hotcard p {
+  color: darkgray;
+}
+.accesories .second-item .Hotcard span {
+  color: orange;
+}
+@media (max-width: 820px) {
+  .accesories .second-item {
+    flex-wrap: wrap;
+  }
+  .accesories > div:first-child > img {
+    height: 450px;
+    width: 25vw;
+  }
+}
+@media (max-width: 415px) {
+  .accesories {
+    justify-content: space-around;
+flex-direction: column;
+    padding: 10px;
+  }
+  .accesories .second-item {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0%;
+    align-items: center;
+    justify-content: center;
+  }
+  .accesories .second-item .Hotcard img {
+    width: 100%;
+  }
+  .accesories .second-item .Hotcard {
+    width: 40%;
+    padding: 5px 40px;
+    margin: 0;
+  }
+  .accesories > div:first-child > img {
+    height: 700px;
+    width: 100vw;
+  }
+}
